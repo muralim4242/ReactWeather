@@ -26153,9 +26153,18 @@
 	var React = __webpack_require__(1);
 	var About = function About() {
 	    return React.createElement(
-	        'h1',
+	        'div',
 	        null,
-	        'About component'
+	        React.createElement(
+	            'h1',
+	            null,
+	            'About component'
+	        ),
+	        React.createElement(
+	            'p',
+	            null,
+	            'About page '
+	        )
 	    );
 	};
 
@@ -26170,9 +26179,18 @@
 	var React = __webpack_require__(1);
 	var Examples = function Examples() {
 	    return React.createElement(
-	        'h1',
+	        'div',
 	        null,
-	        'Examples component'
+	        React.createElement(
+	            'h1',
+	            null,
+	            'Examples'
+	        ),
+	        React.createElement(
+	            'p',
+	            null,
+	            'This is exmaples page'
+	        )
 	    );
 	};
 
