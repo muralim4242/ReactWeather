@@ -27,7 +27,7 @@ var Nav = React.createClass({
                 <div className="top-bar-right">
                     <ul className="menu">
                         <li>
-                            <input type="search" placeholder="Search"/></li>
+                            <input type="search" placeholder="Enter city name for finding temperature"/></li>
                             <li>
                                 <button type="button" onClick={this.onSearch} className="button">Search</button>
                             </li>
