@@ -10,7 +10,7 @@ var Examples = () => {
                     <Link to='/?location=banglore'>Banglore</Link>
                 </li>
                 <li>
-                    <Link to='/?location=banglore'>shimoga</Link>
+                    <Link to='/?location=shimoga'>shimoga</Link>
                 </li>
             </ol>
         </div>

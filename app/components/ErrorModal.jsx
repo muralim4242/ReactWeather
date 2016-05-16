@@ -9,7 +9,7 @@ var ErrorModal = React.createClass({
         return {title: 'Error'}
     },
     componentDidMount: function() {
-        var modal = new Foundation.Reveal($('exampleModal1'));
+        var modal = new Foundation.Reveal($('#error-modal'));
         modal.open();
     },
     render: function() {
